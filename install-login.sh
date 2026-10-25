@@ -31,7 +31,7 @@ mkdir -p "$gshare/plasma/desktoptheme" "$gshare/icons"
 rm -rf "$gshare/plasma/desktoptheme/zoroark-hisui"
 cp -a "$f/plasma/zoroark-hisui" "$gshare/plasma/desktoptheme/"
 tar xzf "$f/icons/tela-circle-D82F45.tar.gz" -C "$gshare/icons"
-tar xzf "$f/cursors/night-diamond-red.tar.gz" -C "$gshare/icons"
+tar xzf "$f/cursors/oreo-pink.tar.gz" -C "$gshare/icons"
 chown -R plasmalogin:plasmalogin "$greeter/.local"
 
 say "Ajustes de $user (colores, estilo, iconos, cursor)"

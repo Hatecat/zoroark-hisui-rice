@@ -89,7 +89,7 @@ say "Iconos (Tela Circle #D82F45), icono del menú y cursor"
 mkdir -p "$share/icons" "$share/icons/hicolor/256x256/apps" "$HOME/.icons"
 tar xzf "$f/icons/tela-circle-D82F45.tar.gz" -C "$share/icons"
 put "$f/icons/zoroark-menu.png" "$share/icons/hicolor/256x256/apps/zoroark-menu.png"
-tar xzf "$f/cursors/night-diamond-red.tar.gz" -C "$HOME/.icons"
+tar xzf "$f/cursors/oreo-pink.tar.gz" -C "$HOME/.icons"
 
 say "kitty, fastfetch, btop y cava"
 for x in kitty.conf zoroark-session.conf zoroark-start.sh; do
@@ -147,7 +147,7 @@ done < "$f/kwin/kwinrc-zoroark.ini"
 say "Aplicando el tema"
 have plasma-apply-colorscheme && plasma-apply-colorscheme ZoroarkHisui || warn "no se pudo aplicar el esquema de color"
 have plasma-apply-desktoptheme && plasma-apply-desktoptheme zoroark-hisui || warn "no se pudo aplicar el estilo de Plasma"
-have plasma-apply-cursortheme && plasma-apply-cursortheme "Night Diamond (Red)" || warn "no se pudo aplicar el cursor"
+have plasma-apply-cursortheme && plasma-apply-cursortheme oreo_pink_cursors || warn "no se pudo aplicar el cursor"
 if [[ -x /usr/libexec/plasma-changeicons ]]; then
     /usr/libexec/plasma-changeicons Tela-circle-D82F45-dark
 else

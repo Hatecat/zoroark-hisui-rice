@@ -25,7 +25,7 @@ Tema completo de escritorio con la paleta de Zoroark de Hisui:
   (Kickoff, bandeja, calendario) con esquinas de 22 px, degradado y 60 % de opacidad.
 - **Esquema de color** `ZoroarkHisui` y **decoración de ventanas** Aurorae `zoroark-hisui`.
 - **Iconos** Tela Circle con las carpetas en `#D82F45` (variante oscura).
-- **Cursor** Night Diamond (Red).
+- **Cursor** Oreo Pink (`#EE5387`).
 - **Menú Kickoff** con la cara de Zoroark como icono, favoritos en cuadrícula.
 - **Pantalla de bloqueo** con el arte de Akari y Zoroark, y el reloj abajo a la izquierda
   (hora en blanco, fecha en dorado, barra carmesí y degradado oscuro).
@@ -33,7 +33,7 @@ Tema completo de escritorio con la paleta de Zoroark de Hisui:
   barra de progreso. Para verla sin cerrar sesión: `ksplashqml --test --window org.zoroark.hisui.splash`.
 - **Arranque**: menú de GRUB con el arte de Akari y un panel oscuro con el menú a la izquierda,
   y animación de Plymouth con Zoroark sobre un resplandor carmesí.
-- **KWin**: esquinas redondeadas con borde degradado carmesí–rosa (efecto *KDE Rounded Corners*)
+- **KWin**: esquinas redondeadas de 25 px con borde degradado carmesí–rosa (efecto *KDE Rounded Corners*)
   y desenfoque suave (intensidad 3).
 - **kitty**: paleta del tema y sesión de 3 paneles (fastfetch, btop y una terminal).
 - **fastfetch**: arte de Zoroark con el texto a la derecha, en los colores del tema.
@@ -177,7 +177,7 @@ Se aplica al volver a iniciar sesión.
   [PokeAPI](https://github.com/PokeAPI/cries).
 - Fondo de Akari y Zoroark extraído del fondo de Wallpaper Engine
   [3027881590](https://steamcommunity.com/sharedfiles/filedetails/?id=3027881590) de Steam Workshop.
-- Cursor Night Diamond (Red).
+- Cursor [Oreo](https://github.com/varlesh/oreo-cursors) de varlesh (GPL-2.0), variante rosa.
 - Fuente [Inter](https://rsms.me/inter/) de Rasmus Andersson (SIL OFL 1.1) en el menú de GRUB.
 - Iconos [Tela Circle](https://github.com/vinceliuice/Tela-circle-icon-theme) de vinceliuice (GPL-3.0).
 - Menús emergentes basados en el estilo Breeze de KDE (LGPL).
