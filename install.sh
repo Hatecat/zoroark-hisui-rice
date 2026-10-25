@@ -179,6 +179,7 @@ for cmd in kitty fastfetch btop cava; do
     have "$cmd" || warn "falta $cmd (sudo dnf install $cmd)"
 done
 [[ $(fc-list : family) == *"Cascadia Code NF"* ]] || warn "falta la fuente Cascadia Code NF (sudo dnf install cascadia-code-nf-fonts)"
+fc-list ':charset=16a0' family | grep -q . || warn "falta una fuente con runas para el prompt (sudo dnf install google-noto-sans-runic-fonts)"
 compgen -G "/usr/lib*/qt6/plugins/kwin/effects/*/*shapecorners*" >/dev/null || \
     warn "falta el efecto de esquinas redondeadas (sudo dnf install kde-rounded-corners)"
 
