@@ -1,5 +1,14 @@
 # Zoroark de Hisui — tema para KDE Plasma 6
 
+![Sesión de kitty con fastfetch, btop y el prompt de zsh](docs/capturas/terminal.jpg)
+
+| | |
+|---|---|
+| ![Menú Kickoff](docs/capturas/menu.jpg) | ![Pantalla de bloqueo](docs/capturas/bloqueo.jpg) |
+| Menú Kickoff | Pantalla de bloqueo |
+| ![Pantalla de carga](docs/capturas/carga.jpg) | ![Menú de GRUB](docs/capturas/arranque.jpg) |
+| Pantalla de carga | Menú de GRUB (vista previa con `tools/preview_grub.py`) |
+
 Tema completo de escritorio con la paleta de Zoroark de Hisui:
 
 | Color | Hex | Uso |
