@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="173"
+   height="56.000004"
+   viewBox="0 0 173 56.000004"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="panel-background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs><linearGradient id="zoroark-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8E1E32"/><stop offset="0.5" stop-color="#4B2230"/><stop offset="1" stop-color="#29262D"/></linearGradient></defs>
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+        stop-color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#b0dba0"
+     bordercolor="#cc0000"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="16.545481"
+     inkscape:cx="41.159274"
+     inkscape:cy="22.997216"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     units="px"
+     inkscape:window-width="3440"
+     inkscape:window-height="1373"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:blackoutopacity="0.0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3336"
+       empspacing="2"
+       originx="0"
+       originy="-91.999976"
+       spacingy="1"
+       spacingx="1"
+       units="px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-904.36218)">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <rect
+       style="fill:#ff00ff"
+       id="thick-hint-top-margin"
+       x="35"
+       y="910.36218"
+       width="4.0000019"
+       height="8.0000048" />
+    <rect
+       style="fill:#ff00ff"
+       id="thick-hint-bottom-margin"
+       x="31"
+       y="946.36218"
+       width="4"
+       height="8.0001907" />
+    <rect
+       style="fill:#ff00ff"
+       id="thick-hint-right-margin"
+       transform="rotate(90)"
+       x="932.36218"
+       y="-56.999985"
+       width="3.9999771"
+       height="7.9999847" />
+    <rect
+       style="fill:#ff00ff"
+       id="thick-hint-left-margin"
+       transform="rotate(90)"
+       x="928.36218"
+       y="-21"
+       width="4.0000229"
+       height="8.0000076" />
+    <rect
+       style="fill:#800080"
+       id="hint-bottom-margin"
+       x="35"
+       y="950.36218"
+       width="4"
+       height="4.0002136" />
+    <rect
+       style="fill:#800080"
+       id="hint-right-margin"
+       transform="rotate(90)"
+       x="928.36218"
+       y="-56.999985"
+       width="3.9999771"
+       height="3.9999847" />
+    <rect
+       style="fill:#800080"
+       id="hint-left-margin"
+       transform="rotate(90)"
+       x="932.36218"
+       y="-17"
+       width="4.0000229"
+       height="4.0000076" />
+    <rect
+       style="fill:#800080"
+       id="hint-top-margin"
+       x="31"
+       y="910.36218"
+       width="4.0000019"
+       height="3.9999795" />
+    <rect
+       x="1"
+       id="thick-center"
+       y="960.36218"
+       width="2"
+       height="2" />
+  </g>
+<g id="topleft" transform="translate(300,0)"><path d="M0,12 A12,12 0 0 1 12,0 L12,12 Z" style="fill:#8E1E32;fill-opacity:1.0"/></g>
+<g id="top" transform="translate(312,0)"><rect x="0" y="0" width="32" height="12" style="fill:url(#zoroark-grad);fill-opacity:1.0"/></g>
+<g id="topright" transform="translate(344,0)"><path d="M0,0 A12,12 0 0 1 12,12 L0,12 Z" style="fill:#29262D;fill-opacity:1.0"/></g>
+<g id="left" transform="translate(300,12)"><rect x="0" y="0" width="12" height="32" style="fill:#8E1E32;fill-opacity:1.0"/></g>
+<g id="center" transform="translate(312,12)"><rect x="0" y="0" width="32" height="32" style="fill:url(#zoroark-grad);fill-opacity:1.0"/></g>
+<g id="right" transform="translate(344,12)"><rect x="0" y="0" width="12" height="32" style="fill:#29262D;fill-opacity:1.0"/></g>
+<g id="bottomleft" transform="translate(300,44)"><path d="M12,12 A12,12 0 0 1 0,0 L12,0 Z" style="fill:#8E1E32;fill-opacity:1.0"/></g>
+<g id="bottom" transform="translate(312,44)"><rect x="0" y="0" width="32" height="12" style="fill:url(#zoroark-grad);fill-opacity:1.0"/></g>
+<g id="bottomright" transform="translate(344,44)"><path d="M12,0 A12,12 0 0 1 0,12 L0,0 Z" style="fill:#29262D;fill-opacity:1.0"/></g>
+<g id="mask-topleft" transform="translate(300,100)"><path d="M0,12 A12,12 0 0 1 12,0 L12,12 Z" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-top" transform="translate(312,100)"><rect x="0" y="0" width="32" height="12" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-topright" transform="translate(344,100)"><path d="M0,0 A12,12 0 0 1 12,12 L0,12 Z" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-left" transform="translate(300,112)"><rect x="0" y="0" width="12" height="32" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-center" transform="translate(312,112)"><rect x="0" y="0" width="32" height="32" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-right" transform="translate(344,112)"><rect x="0" y="0" width="12" height="32" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-bottomleft" transform="translate(300,144)"><path d="M12,12 A12,12 0 0 1 0,0 L12,0 Z" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-bottom" transform="translate(312,144)"><rect x="0" y="0" width="32" height="12" style="fill:#000000;fill-opacity:1.0"/></g>
+<g id="mask-bottomright" transform="translate(344,144)"><path d="M12,0 A12,12 0 0 1 0,12 L0,0 Z" style="fill:#000000;fill-opacity:1.0"/></g>
+<rect id="hint-stretch-borders" x="290" y="0" width="1" height="1" style="fill-opacity:0"/>
+</svg>

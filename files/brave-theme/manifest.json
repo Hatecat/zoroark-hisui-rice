@@ -1,0 +1,117 @@
+{
+  "manifest_version": 3,
+  "name": "Zoroark Hisui",
+  "version": "1.0",
+  "description": "Tema carmesí y gris violáceo a juego con el escritorio",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_frame_inactive": "images/frame_inactive.png",
+      "theme_frame_incognito": "images/frame_inactive.png",
+      "theme_frame_incognito_inactive": "images/frame_inactive.png"
+    },
+    "colors": {
+      "frame": [
+        142,
+        30,
+        50
+      ],
+      "frame_inactive": [
+        41,
+        38,
+        45
+      ],
+      "frame_incognito": [
+        41,
+        38,
+        45
+      ],
+      "frame_incognito_inactive": [
+        30,
+        28,
+        34
+      ],
+      "toolbar": [
+        41,
+        38,
+        45
+      ],
+      "toolbar_text": [
+        242,
+        240,
+        240
+      ],
+      "toolbar_button_icon": [
+        230,
+        161,
+        171
+      ],
+      "tab_text": [
+        242,
+        240,
+        240
+      ],
+      "tab_background_text": [
+        230,
+        161,
+        171
+      ],
+      "tab_background_text_inactive": [
+        183,
+        183,
+        192
+      ],
+      "bookmark_text": [
+        242,
+        240,
+        240
+      ],
+      "omnibox_background": [
+        30,
+        28,
+        34
+      ],
+      "omnibox_text": [
+        242,
+        240,
+        240
+      ],
+      "button_background": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ntp_background": [
+        41,
+        38,
+        45
+      ],
+      "ntp_text": [
+        242,
+        240,
+        240
+      ],
+      "ntp_link": [
+        243,
+        201,
+        78
+      ],
+      "ntp_header": [
+        216,
+        47,
+        69
+      ]
+    },
+    "tints": {
+      "buttons": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "center"
+    }
+  }
+}

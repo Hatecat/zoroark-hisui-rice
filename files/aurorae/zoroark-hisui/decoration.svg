@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="232">
+<defs><linearGradient id="g0" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8E1E32"/><stop offset="0.4" stop-color="#B52A42"/><stop offset="0.72" stop-color="#E6A1AB"/><stop offset="1" stop-color="#F2F0F0"/></linearGradient><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8E1E32"/><stop offset="0.4" stop-color="#B52A42"/><stop offset="0.72" stop-color="#E6A1AB"/><stop offset="1" stop-color="#F2F0F0"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#29262D"/><stop offset="0.45" stop-color="#3A3640"/><stop offset="0.75" stop-color="#777782"/><stop offset="1" stop-color="#B7B7C0"/></linearGradient><linearGradient id="g3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#29262D"/><stop offset="0.45" stop-color="#3A3640"/><stop offset="0.75" stop-color="#777782"/><stop offset="1" stop-color="#B7B7C0"/></linearGradient></defs>
+<rect id="hint-top-margin" x="72" y="0" width="1" height="30" fill-opacity="0"/>
+<rect id="hint-left-margin" x="72" y="0" width="2" height="1" fill-opacity="0"/>
+<rect id="hint-right-margin" x="72" y="2" width="2" height="1" fill-opacity="0"/>
+<rect id="hint-bottom-margin" x="72" y="4" width="1" height="2" fill-opacity="0"/>
+<rect id="hint-stretch-borders" x="70" y="0" width="1" height="1" fill-opacity="0"/>
+<path id="decoration-topleft" d="M0,30 V6 Q0,0 6,0 H6 V30 Z" fill="#8E1E32"/>
+<rect id="decoration-top" x="8" y="0" width="40" height="30" fill="url(#g0)"/>
+<path id="decoration-topright" d="M50,0 H50 Q56,0 56,6 V30 H50 Z" fill="#F2F0F0"/>
+<rect id="decoration-left" x="0" y="34" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-center" x="4" y="34" width="40" height="10" fill="#000000" fill-opacity="0"/>
+<rect id="decoration-right" x="46" y="34" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-bottomleft" x="0" y="48" width="2" height="2" fill="#1E1C22"/>
+<rect id="decoration-bottom" x="4" y="48" width="40" height="2" fill="#1E1C22"/>
+<rect id="decoration-bottomright" x="46" y="48" width="2" height="2" fill="#1E1C22"/>
+<path id="decoration-maximized-topleft" d="M0,88 V58 Q0,58 0,58 H6 V88 Z" fill="#8E1E32"/>
+<rect id="decoration-maximized-top" x="8" y="58" width="40" height="30" fill="url(#g1)"/>
+<path id="decoration-maximized-topright" d="M50,58 H56 Q56,58 56,58 V88 H50 Z" fill="#F2F0F0"/>
+<rect id="decoration-maximized-left" x="0" y="92" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-maximized-center" x="4" y="92" width="40" height="10" fill="url(#g1)"/>
+<rect id="decoration-maximized-right" x="46" y="92" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-maximized-bottomleft" x="0" y="106" width="2" height="2" fill="#1E1C22"/>
+<rect id="decoration-maximized-bottom" x="4" y="106" width="40" height="2" fill="#1E1C22"/>
+<rect id="decoration-maximized-bottomright" x="46" y="106" width="2" height="2" fill="#1E1C22"/>
+<path id="decoration-inactive-topleft" d="M0,146 V122 Q0,116 6,116 H6 V146 Z" fill="#29262D"/>
+<rect id="decoration-inactive-top" x="8" y="116" width="40" height="30" fill="url(#g2)"/>
+<path id="decoration-inactive-topright" d="M50,116 H50 Q56,116 56,122 V146 H50 Z" fill="#B7B7C0"/>
+<rect id="decoration-inactive-left" x="0" y="150" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-inactive-center" x="4" y="150" width="40" height="10" fill="#000000" fill-opacity="0"/>
+<rect id="decoration-inactive-right" x="46" y="150" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-inactive-bottomleft" x="0" y="164" width="2" height="2" fill="#1E1C22"/>
+<rect id="decoration-inactive-bottom" x="4" y="164" width="40" height="2" fill="#1E1C22"/>
+<rect id="decoration-inactive-bottomright" x="46" y="164" width="2" height="2" fill="#1E1C22"/>
+<path id="decoration-maximized-inactive-topleft" d="M0,204 V174 Q0,174 0,174 H6 V204 Z" fill="#29262D"/>
+<rect id="decoration-maximized-inactive-top" x="8" y="174" width="40" height="30" fill="url(#g3)"/>
+<path id="decoration-maximized-inactive-topright" d="M50,174 H56 Q56,174 56,174 V204 H50 Z" fill="#B7B7C0"/>
+<rect id="decoration-maximized-inactive-left" x="0" y="208" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-maximized-inactive-center" x="4" y="208" width="40" height="10" fill="url(#g3)"/>
+<rect id="decoration-maximized-inactive-right" x="46" y="208" width="2" height="10" fill="#1E1C22"/>
+<rect id="decoration-maximized-inactive-bottomleft" x="0" y="222" width="2" height="2" fill="#1E1C22"/>
+<rect id="decoration-maximized-inactive-bottom" x="4" y="222" width="40" height="2" fill="#1E1C22"/>
+<rect id="decoration-maximized-inactive-bottomright" x="46" y="222" width="2" height="2" fill="#1E1C22"/>
+</svg>

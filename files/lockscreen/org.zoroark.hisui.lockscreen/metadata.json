@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Shell",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "porroson"
+            }
+        ],
+        "Description": "Pantalla de bloqueo con la paleta de Zoroark de Hisui y el reloj abajo",
+        "Id": "org.zoroark.hisui.lockscreen",
+        "License": "GPL-2.0-or-later",
+        "Name": "Zoroark de Hisui (pantalla de bloqueo)",
+        "Version": "1.0"
+    },
+    "X-Plasma-APIVersion": "2",
+    "X-KDE-ParentApp": "org.kde.plasmashell"
+}

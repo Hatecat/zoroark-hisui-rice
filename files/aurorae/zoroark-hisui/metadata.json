@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "porroson"
+            }
+        ],
+        "Category": "Plasma 6 Window Decorations",
+        "ServiceTypes": [
+            "aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Zoroark de Hisui",
+        "Description": "Degradado carmesí, rosa y blanco",
+        "Id": "zoroark-hisui",
+        "Version": "1.0",
+        "License": "GPL-2.0+"
+    }
+}

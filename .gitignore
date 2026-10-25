@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.tar.gz
+!files/cursors/*.tar.gz
+!files/icons/*.tar.gz

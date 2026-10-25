@@ -1,0 +1,12 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [{ "Name": "porroson" }],
+        "Description": "Pantalla de carga con Zoroark de Hisui",
+        "Id": "org.zoroark.hisui.splash",
+        "License": "GPL-2.0-or-later",
+        "Name": "Zoroark de Hisui",
+        "Version": "1.0"
+    },
+    "X-Plasma-APIVersion": "2"
+}

@@ -1,0 +1,57 @@
+[Plymouth Theme]
+Name=Zoroark de Hisui
+Description=Zoroark de Hisui sobre un resplandor carmesí, con barra de progreso
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
+ImageDir=/usr/share/plymouth/themes/zoroark-hisui
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.72
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.78
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.42
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x2A1E27
+BackgroundEndColor=0x1E1C22
+ProgressBarBackgroundColor=0x3A3540
+ProgressBarForegroundColor=0xD82F45
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Instalando actualizaciones…
+SubTitle=No apagues el equipo
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Actualizando el sistema…
+SubTitle=No apagues el equipo
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Actualizando el firmware…
+SubTitle=No apagues el equipo

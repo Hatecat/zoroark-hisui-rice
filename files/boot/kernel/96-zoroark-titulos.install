@@ -1,0 +1,36 @@
+#!/usr/bin/bash
+# Acorta los títulos de las entradas BLS del menú de GRUB (/boot/loader/entries):
+#   "Nobara Linux (7.2.11-200.nobara.fc44.x86_64) 44 (KDE Plasma Desktop Edition)" → "Nobara 44 · 7.2.11"
+# Si dos kernels comparten versión (7.2.4-201 y 7.2.4-202) se deja también el número de compilación.
+# kernel-install lo ejecuta tras crear las entradas de cada kernel nuevo (20-grub, 51-dracut-rescue).
+# También se puede ejecutar a mano sin argumentos para acortar todas las entradas existentes.
+
+BLS_DIR=${ZOROARK_BLS_DIR:-/boot/loader/entries}  # la variable solo sirve para probarlo
+[[ -d $BLS_DIR ]] || exit 0
+[[ $1 == remove ]] && exit 0
+
+. /etc/os-release
+distro="${NAME%% *} ${VERSION_ID}"
+kernels=$(sed -n 's/^linux[ \t]\+.*vmlinuz-//p' "$BLS_DIR"/*.conf 2>/dev/null)
+
+for entry in "$BLS_DIR"/*.conf; do
+    [[ -f $entry ]] || continue
+    kver=$(sed -n 's/^linux[ \t]\+.*vmlinuz-//p' "$entry")
+    if [[ $kver == 0-rescue-* ]]; then
+        title="$distro · rescate"
+    elif [[ -n $kver ]]; then
+        base=${kver%%-*}
+        if (( $(grep -v '+debug$' <<< "$kernels" | grep -c "^$base-") > 1 )); then
+            title="$distro · ${kver%%.[a-z]*}"
+        else
+            title="$distro · $base"
+        fi
+        [[ $kver == *+debug ]] && title+=" (depuración)"
+    elif grep -qi memtest "$entry"; then
+        title="Memtest86+"
+    else
+        continue
+    fi
+    grep -qxF "title $title" "$entry" || sed -i "s/^title[ \t].*/title $title/" "$entry"
+done
+exit 0

@@ -1,0 +1,9 @@
+[Sound Theme]
+Name=Zoroark de Hisui
+Comment=Campanas en la escala In e ilusiones; al iniciar sesión, el grito de Zoroark de Hisui
+Inherits=ocean,freedesktop
+Directories=stereo
+Example=theme-demo
+
+[stereo]
+OutputProfile=stereo

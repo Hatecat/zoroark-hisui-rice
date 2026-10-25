@@ -1,0 +1,11 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "porroson"}],
+        "Description": "Breeze con los colores de Zoroark de Hisui",
+        "Id": "zoroark-hisui",
+        "License": "GPL-2.0+",
+        "Name": "Zoroark de Hisui",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
