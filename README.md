@@ -1,6 +1,6 @@
 # Zoroark de Hisui — tema para KDE Plasma 6
 
-![Sesión de kitty con fastfetch, btop y el prompt de zsh](docs/capturas/terminal.jpg)
+![Sesión de kitty con fastfetch, btop, el prompt de zsh, cava y el reloj tty-clock](docs/capturas/terminal.jpg)
 
 | | |
 |---|---|
