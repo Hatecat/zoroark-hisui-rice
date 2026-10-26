@@ -110,6 +110,20 @@ else
 fi
 put "$f/cava/config" "$conf/cava/config"
 
+# El reloj del panel inferior de la sesión de kitty; no está en los repos de Fedora
+if [[ ! -x $HOME/.local/bin/tty-clock ]]; then
+    say "tty-clock (compilado desde GitHub)"
+    src=$(mktemp -d)
+    if git clone -q --depth 1 https://github.com/xorg62/tty-clock.git "$src" \
+        && make -C "$src" >/dev/null 2>&1 \
+        && install -Dm 755 "$src/tty-clock" "$HOME/.local/bin/tty-clock"; then
+        :
+    else
+        warn "no se pudo compilar tty-clock (sudo dnf install git gcc make ncurses-devel y vuelve a ejecutar)"
+    fi
+    rm -rf "$src"
+fi
+
 say "Tema de Brave (se carga a mano, ver README)"
 put_dir "$f/brave-theme" "$share/brave-themes/zoroark-hisui"
 
@@ -178,6 +192,7 @@ say "Comprobando dependencias"
 for cmd in kitty fastfetch btop cava; do
     have "$cmd" || warn "falta $cmd (sudo dnf install $cmd)"
 done
+[[ -x $HOME/.local/bin/tty-clock ]] || warn "falta tty-clock (sudo dnf install git gcc make ncurses-devel y vuelve a ejecutar)"
 [[ $(fc-list : family) == *"Cascadia Code NF"* ]] || warn "falta la fuente Cascadia Code NF (sudo dnf install cascadia-code-nf-fonts)"
 fc-list ':charset=16a0' family | grep -q . || warn "falta una fuente con runas para el prompt (sudo dnf install google-noto-sans-runic-fonts)"
 compgen -G "/usr/lib*/qt6/plugins/kwin/effects/*/*shapecorners*" >/dev/null || \
