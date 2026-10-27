@@ -48,6 +48,7 @@ say "Estilo de Plasma, esquema de color y decoración de ventanas"
 put_dir "$f/plasma/zoroark-hisui" "$share/plasma/desktoptheme/zoroark-hisui"
 put "$f/color-schemes/ZoroarkHisui.colors" "$share/color-schemes/ZoroarkHisui.colors"
 put_dir "$f/aurorae/zoroark-hisui" "$share/aurorae/themes/zoroark-hisui"
+put_dir "$f/kwin/tabbox/zoroark-carousel" "$share/kwin/tabbox/zoroark-carousel"
 
 say "Pantalla de bloqueo (reloj abajo y fondo de Akari con Zoroark)"
 put_dir "$f/lockscreen/org.zoroark.hisui.lockscreen" "$share/plasma/shells/org.zoroark.hisui.lockscreen"
@@ -147,7 +148,7 @@ else
     warn "no está oh-my-zsh; el prompt queda en files/zsh/zoroark.zsh-theme"
 fi
 
-say "Ajustes de KWin (decoración, esquinas redondeadas, desenfoque)"
+say "Ajustes de KWin (decoración, esquinas redondeadas, desenfoque, carrusel de Alt+Tab)"
 group=
 while IFS= read -r line; do
     [[ -z $line ]] && continue

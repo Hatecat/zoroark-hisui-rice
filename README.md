@@ -35,6 +35,8 @@ Tema completo de escritorio con la paleta de Zoroark de Hisui:
   y animación de Plymouth con Zoroark sobre un resplandor carmesí.
 - **KWin**: esquinas redondeadas de 25 px con borde degradado carmesí–rosa (efecto *KDE Rounded Corners*)
   y desenfoque suave (intensidad 3).
+- **Alt+Tab**: selector `zoroark-carousel`, un carrusel 3D basado en *Cover Switch* con el degradado de los menús,
+  marco carmesí con brillo y filo dorado, miniaturas redondeadas con reflejo y una píldora con el título y una runa al azar.
 - **kitty**: paleta del tema y sesión de 5 paneles: fastfetch, btop y una terminal arriba; abajo, a lo ancho, el visualizador **cava** con un reloj **tty-clock** en carmesí (se compila al instalar). `ctrl+shift+enter` abre otra terminal a lo ancho, debajo de las demás.
 - **fastfetch**: arte de Zoroark con el texto a la derecha, en los colores del tema.
 - **zsh**: prompt de oh-my-zsh `zoroark` (ruta en rosa, rama de git en dorado, flecha carmesí que pasa a dorado con el código de salida si el comando falla).

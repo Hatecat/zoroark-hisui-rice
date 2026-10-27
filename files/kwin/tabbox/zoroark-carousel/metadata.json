@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "KWin/WindowSwitcher",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Ismael Asensio (Cover Switch original)"
+            }
+        ],
+        "Description": "Carrusel 3D de ventanas con el tema Zoroark de Hisui",
+        "Icon": "preferences-system-windows-effect-coverswitch",
+        "Id": "zoroark-carousel",
+        "License": "GPL",
+        "Name": "Carrusel Zoroark"
+    }
+}
